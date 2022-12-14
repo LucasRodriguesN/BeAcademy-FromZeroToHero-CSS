@@ -1,0 +1,71 @@
+<!--
+    Básico de propriedades de fonte
+
+    *font-family - tipo de fonte do elemento, padrão sans-serif
+    *font-weight - peso da fonte, 400, 500, 700, bold
+    *font-style - normal, italic, oblique, none
+    *font-size - tamanho da fonte, px, em, rem, %
+    *font-variant - normal, small-caps
+    *font-stretch -
+    Nem todas as fontes dão suporte a está propriedade
+    permite manipular caracteres - condensed, normal, expanded
+
+    *letter-spacing: espaçamento entre letras
+    *word-spacing: espaçamento de palavras
+    *line-height: espaço entre linhas (pode ser por unidades ou sem unidade)
+    *text-transform:
+    lowercase, uppercase, (minúscula e maiúscula)
+    capitalize (cada palavra inicia em letra maiúscula)
+
+    *text-decoration: line, underline, overline, line-through
+        none
+    atribuindo estilos - text-decoration: underline wave, dashed, dotted,
+    double e também cores
+
+    *text-align: center, left, right, justify
+    *text-shadow
+        texte-shadow: 1px 1px 1px red
+        offset-x, offset-y -blur e cor
+
+    *shorthand: italic normal bold normal 3em/1.5 helvetica, arial, sans-serif
+    style, variant, wight, stretch, size, line-height, family
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com fontes</title>
+</head>
+
+    <style>
+        h1 {
+            color: red;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: normal;
+            font-style: italic;
+            /*font-stretch: condensed;*/
+            letter-spacing: 14px;
+            word-spacing: 4rem;
+
+        }
+        h2 {
+            color: blue;
+            line-height: 4rem;
+            text-transform: lowercase;
+            text-decoration: underline;
+            text-align: center;
+            text-shadow: 12px 20px 20px #000;
+            /*font: normal 100 4rem/1.2rem 'arial', sans-serif;*/
+        }
+
+    </style>
+
+<body>
+    <h1>Testando fontes</h1>
+    <h2>Outro teste de fontes</h2>
+    
+</body>
+</html>

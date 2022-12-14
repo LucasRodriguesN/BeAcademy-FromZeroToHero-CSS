@@ -1,0 +1,70 @@
+<!--
+    Documentação:
+    w3schools.com/css/css_layout.asp
+
+    História do CSS e Page layout
+
+    1-tables
+    w3schools.com/html/html_tables.asp
+
+    2-floats e clear
+    w3schools.com/css/css_float.asp
+    w3schools.com/css/css_float_clear.asp
+
+    3-frameworks e grid systems
+    getbootstrap.com/docs/5.1/examples/
+    tailwindcss.com/docs/grid-temple-columns
+
+    4-flexbox
+    w3schools.com/css/css3_flexbox.asp
+
+    5-grid
+    w3schools.com/css/css_grid.asp
+-->
+<!--positions-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+        .box {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 12px;
+        }
+
+        .box-1{
+            background: red;
+            position: relative;
+            top: 50px;
+            left: 100px;
+
+        }
+
+        .box-2{
+            background: green;
+            position: absolute;
+            left: 100px;
+
+        }
+
+        .box-3{
+            background: blue;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="box box-1"></div>
+    <div class="box box-2"></div>
+    <div class="box box-3"></div>
+    
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!--
+    ***Pseudo - classes***
+    Uma pseudo-classe CSS é uma palavra-chave adicionada a seletores que especificam um estado
+    especial do elemento selecionado. Por exemplo: hover pode ser usado para alterar a cor de um botão
+    quando o usuário passar o cursor sobre ele.
+
+    Documentação: developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes
+
+    **Selecionado elementos com pseudo-classes**
+
+    :first-child
+    :nth-of-type()
+    :nth-child()
+    :nth-child(even)
+    :nth-child(odd)
+
+
+    **Ações do usuário**
+
+    :houver - Quando o usuário passa o cursos pro cima pro cima do elemento
+    :focus - Quando o usuário da um foco no elemento
+
+    **Atributos**
+    Podemos utilizar melhor em formulários
+
+    :disabled
+    :required
+
+    ***Pseudo-elements***
+
+    ::before
+    ::after
+    ::first-line (apenas com texto)
+
+    pseudo-elements permite adicionar elementos HTML pelo próprio CSS.
+
+    Documentação: developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elements
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes</title>
+
+    <link rel="stylesheet" href="./style2.css">
+
+</head>
+<body>
+
+    <h1>Testando nth-of-child</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque vel veniam provident voluptate 
+    repudiandae illum fugit quos. Labore ratione odio qui dignissimos rem, hic doloremque, repellat est mollitia 
+    eveniet possimus?</p>
+    <br/>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque vel veniam provident voluptate 
+    repudiandae illum fugit quos. Labore ratione odio qui dignissimos rem, hic doloremque, repellat est mollitia 
+    eveniet possimus?</p>
+    <br/>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque vel veniam provident voluptate 
+    repudiandae illum fugit quos. Labore ratione odio qui dignissimos rem, hic doloremque, repellat est mollitia 
+    eveniet possimus?</p>
+
+    <!--<ul>
+        <li>Luan Monteiro</li>
+        <li>Lucas Rodrigues</li>
+        <li>Regis Eduardo</li>
+        <li>Daniela Lisboa</li>
+    </ul>-->
+
+    <form>
+        <input 
+        type="text"
+        name="number1"
+        id="number1"
+        placeholder="Informe o número 1"
+        >
+
+        <br>
+
+        <input 
+        type="text"
+        name="number2"
+        id="number2"
+        placeholder="Informe o número 2"
+        >
+
+        <br>
+        <button class="btn-submit">Enviar</button>
+    </form>
+
+    <ul>
+        <li>Marcador 1</li>
+        <li>Marcador 2</li>
+        <li>Marcador 3</li>
+    </ul>
+    
+</body>
+</html>
